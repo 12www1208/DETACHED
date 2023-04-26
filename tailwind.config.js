@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         'd22': '#252525',
         'hE': '#E4D0D0'
+      },
+      fontFamily: {
+        'Rubik': ["'Rubik Wet Paint'", 'cursive']
       }
     },
   },
