@@ -3,10 +3,13 @@ import { ref, shallowRef } from 'vue';
 import Header from './components/header/header.vue';
 import Navbar from './components/navbar/navbar.vue';
 import News from './components/news/news.vue';
+import Clips from './components/clips/clips.vue';
+
 
 const components = shallowRef([
   Header,
-  News
+  News,
+  Clips
 ])
 const componentId = ref(0)
 </script>

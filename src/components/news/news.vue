@@ -1,7 +1,7 @@
 <script setup>
 import { onBeforeMount, ref } from 'vue';
 import newsBlock from './newsBlock/newsBlock.vue'
-import preloaderVue from '../../ui/preloader/preloader.vue';
+import preloaderVue from '../ui/preloader/preloader.vue';
 const token = '2f5488e22f5488e22f5488e2982c47489622f542f5488e24b1366eff1966329a5476123'
 const verison = '5.131'
 const show = ref(false)
