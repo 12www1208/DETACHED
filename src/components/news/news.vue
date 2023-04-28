@@ -32,7 +32,7 @@ onBeforeMount(() => {
 </script>
 
 <template>
-  <div class="news">
+  <div class="news overflow-x-hidden">
     <preloaderVue v-show="!show"/>
     <newsBlock v-for="(items, index) in list" :item="items" :index="index"  />
   </div>
