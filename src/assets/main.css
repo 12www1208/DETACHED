@@ -5,6 +5,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    overflow: hidden;
+  }
+}
+
 @layer components {
   .menu-item {
     @apply inline-block  text-lg md:text-2xl text-white hover:text-hE duration-200 ml-3 md:ml-20;
