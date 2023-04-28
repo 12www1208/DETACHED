@@ -18,8 +18,8 @@ $.ajax({
 </script>
 
 <template>
-  <div class="clips pt-20  flex  flex-wrap space-x-10 justify-center">
-    <preloader v-show="show"/>
+  <preloader v-show="show"/>
+  <div class="clips pt-20  flex flex-col items-center md:flex-row flex-wrap md:space-x-10 justify-center">
     <blockClipVue v-for="item in list" :title="item.title" :video-id="item.videoId" :img="item.videoThumbnails[0].url" />
   </div>
 </template>

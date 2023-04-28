@@ -4,10 +4,10 @@ import Header from './components/header/header.vue';
 import Navbar from './components/navbar/navbar.vue';
 import News from './components/news/news.vue';
 import Clips from './components/clips/clips.vue';
-
-
+import sostavVue from './components/sostav/sostav.vue';
 const components = shallowRef([
   Header,
+  sostavVue,
   News,
   Clips
 ])
