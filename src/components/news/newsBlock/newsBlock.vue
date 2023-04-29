@@ -3,7 +3,7 @@ import video from '../../../assets/img/video_s.png'
 const {item, index} = defineProps(['item', 'index']);
 const text = item.text
 const clicImg = () => {
-  window.open('https://vk.com/detachedproduction')
+  window.open(`https://vk.com/detachedproduction?w=wall-213692460_${item.id}`)
 }
 let img  = ''
 if( item.attachments.length != 0 && item.attachments[0]['type'] == 'photo') {

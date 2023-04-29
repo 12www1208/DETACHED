@@ -8,6 +8,7 @@ const show = ref(false)
 const list = ref('')
 function test(result) {
   const data = result.response.items
+  console.log(data)
   list.value = data
   show.value = true
 }
